@@ -1,0 +1,56 @@
+/* Tag elements */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 60px;
+}
+h1 {
+    text-transform:uppercase;
+}
+
+.header {
+    background-color: gray;
+}
+
+.heading1 {
+    float: left;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 7px;
+}
+
+.navigation {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.article1{
+    width: 70%;
+    float: left;
+}
+
+aside img {
+    height: 80px;
+    width: 80px;
+}
+
+aside {
+    background-color: gray;
+    width: 20%;
+    float: right;
+    padding: 10px;
+    border: 8px solid blueviolet;
+    border-left: none;
+    border-right: none;
+
+}
